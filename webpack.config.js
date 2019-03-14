@@ -12,13 +12,12 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      filename: "index.html",
-      inject: true,
-      title: "Employee Discounts"
+      title: "Employee Discounts",
+      template: "./src/index.html"
     })
   ],
   output: {
-    filename: "test.js",
+    filename: "app.js",
     path: path.resolve(__dirname, "dist")
   }
 };
