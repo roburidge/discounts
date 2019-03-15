@@ -1,0 +1,33 @@
+{
+  "venues": ["bagelman", "eatalio", "hells-kitchen", "namul"],
+  "details": {
+    "bagelman": {
+      "venue": "Bagelman",
+      "category": "Food & Drink",
+      "location": "All locations",
+      "offer": "15% off",
+      "restrictions": ""
+    },
+    "eatalio": {
+      "venue": "Eatalio",
+      "category": "Food & Drink",
+      "location": "Queens Road",
+      "offer": "25% off",
+      "restrictions": ""
+    },
+    "hells-kitchen": {
+      "venue": "Hell’s Kitchen",
+      "category": "Food & Drink",
+      "location": "Queens Road",
+      "offer": "25% off",
+      "restrictions": ""
+    },
+    "namul": {
+      "venue": "Namul",
+      "category": "Food & Drink",
+      "location": "49 Gardner Street",
+      "offer": "10% off",
+      "restrictions": "Does not include desserts & drinks, not valid on Saturdays"
+    }
+  }
+}

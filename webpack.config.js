@@ -7,7 +7,10 @@ module.exports = {
   entry: "./src/index.js",
   devtool: "eval-source-map",
   devServer: {
-    contentBase: "./dist"
+    contentBase: "./dist",
+    proxy: {
+      "/api": "http://localhost:3000"
+    }
   },
   plugins: [
     new CleanWebpackPlugin(),
